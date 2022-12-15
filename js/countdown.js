@@ -6,8 +6,11 @@ function countdown() {
     const secondEl = document.getElementById("second");
 
     // Selecting a date to launch and calc the diff between the launch date and the current time
-    const launchDate = Date.parse("jan 1, 2024 10:20:00");
-    const currentTime = new Date();
+     const currentTime = new Date();
+    const tomorrow = new Date(currentTime)
+    tomorrow.setDate(tomorrow.getDate() + 10)
+    const launchDate = tomorrow.parse();
+ 
 
     const diff = launchDate - currentTime;
 
