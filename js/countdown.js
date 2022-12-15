@@ -7,9 +7,7 @@ function countdown() {
 
     // Selecting a date to launch and calc the diff between the launch date and the current time
      const currentTime = new Date();
-    const tomorrow = new Date(currentTime)
-    tomorrow.setDate(tomorrow.getDate() + 10)
-    const launchDate = tomorrow.parse();
+    const launchDate = Date.parse(`jan 1, ${currentTime.getFullYear() + 1} 10:20:00`);
  
 
     const diff = launchDate - currentTime;
