@@ -1,0 +1,23 @@
+.cta__btn {
+    width: 11.3rem;
+    height: 3.2rem;
+
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-style: none;
+    border-radius: 12px;
+    background-color: var(--purple);
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 300;
+    font-size: 1.1rem;
+    transition: all 450ms;
+}
+
+.cta__btn:hover {
+    background-color: #5e57df;
+    transform: translateY(-7px);
+}

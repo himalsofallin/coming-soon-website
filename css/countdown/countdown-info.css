@@ -1,0 +1,18 @@
+.countdown__info {
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* legends Days, Hours, Minutes, Seconds */
+.countdown__info span {
+    margin-bottom: 1.5rem;
+
+    color: var(--text-color);
+    font-size: 0.8rem;
+}

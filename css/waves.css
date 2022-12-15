@@ -1,0 +1,16 @@
+.waves {
+    width: 100%;
+    height: 25vh;
+    
+    background-repeat: no-repeat;
+}
+
+.wave--top {
+    background-image: url('../image/top-image.svg');
+    background-size: contain;
+}
+
+.wave--bottom {
+    background-image: url('../image/bottom-image.svg');
+    background-size: cover;
+}

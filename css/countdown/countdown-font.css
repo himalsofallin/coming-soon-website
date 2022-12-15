@@ -1,0 +1,12 @@
+.countdown--font {
+    color: var(--black);
+    font-size: 5rem;
+}
+
+/* RESPONSIVE */
+/* Phone Only */
+@media (max-width: 599px) {
+    .countdown--font {
+        font-size: 3.5rem;
+    }
+}

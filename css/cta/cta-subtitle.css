@@ -1,0 +1,17 @@
+.cta__subtitle {
+    margin-top: 2rem;
+
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: var(--text-color);
+}
+
+/* RESPONSIVE */
+/* Phone Only */
+@media (max-width: 599px) {
+    .cta__subtitle {
+        width: 90vw;
+        
+        text-align: center;
+    }
+}

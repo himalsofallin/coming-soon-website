@@ -1,0 +1,16 @@
+.countdown {
+    width: 90%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* RESPONSIVE */
+/* Phone Only */
+@media (max-width: 599px) {
+    .countdown {
+        width: 100%;
+    }
+}

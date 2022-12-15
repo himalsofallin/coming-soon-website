@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coming soon the launch...">
+    <meta name="author" content="Salinas">
+    <title>Kasimova Yakında!</title>
+    <style>
+        html{
+            user-select: none;
+        }
+    </style>
+ <script>
+    window.ondragstart = function() { return false; } 
+ </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Reset -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Waves Design -->
+    <link rel="stylesheet" href="./css/waves.css">
+    <!-- Call to Action -->
+    <link rel="stylesheet" href="./css/cta/cta.css">
+    <link rel="stylesheet" href="./css/cta/cta-headline.css">
+    <link rel="stylesheet" href="./css/cta/cta-subtitle.css">
+    <link rel="stylesheet" href="./css/cta/cta-btn.css">
+    <!-- Countdown -->
+    <link rel="stylesheet" href="./css/countdown/countdown.css">
+    <link rel="stylesheet" href="./css/countdown/countdown-info.css">
+    <link rel="stylesheet" href="./css/countdown/countdown-divider.css">
+    <link rel="stylesheet" href="./css/countdown/countdown-font.css">
+    <!-- Rocket -->
+    <link rel="stylesheet" href="./css/rocket.css">
+</head>
+
+<body>
+    <!-- Wave Design -->
+    <div class="waves wave--top"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Call to Action -->
+        <section class="cta">
+            <h1 class="cta__headline">Fişeklerinizi Hazırlayın...</h1>
+
+            <!-- Sayaç -->
+            <div class="countdown">
+                <!-- Gün -->
+                <div class="countdown__info countdown--font">
+                    <span>Gün</span>
+                    <p id="day"></p>
+                </div>
+
+                <!-- : -->
+                <div class="countdown__divider countdown--font"><span>:</span></div>
+
+                <!-- Saat -->
+                <div class="countdown__info countdown--font">
+                    <span>Saat</span>
+                    <p id="hour"></p>
+                </div>
+
+                <!-- : -->
+                <div class="countdown__divider countdown--font"><span>:</span></div>
+
+                <!-- Dakika -->
+                <div class="countdown__info countdown--font">
+                    <span>Dakika</span>
+                    <p id="minute"></p>
+                </div>
+
+                <!-- : -->
+                <div class="countdown__divider countdown--font"><span>:</span></div>
+
+                <!-- Saniye -->
+                <div class="countdown__info countdown--font">
+                    <span>Saniye</span>
+                    <p id="second"></p>
+                </div>
+            </div>
+
+            <p class="cta__subtitle">Bizi bekleyin yakında en iyi sistemlerle burada olacağız!</p>
+        </section>
+
+        <!-- Rocket Design -->
+        <img class="rocket" src="./image/rocket.svg" alt="">
+    </main>
+
+    <!-- Wave Design -->
+    <div class="waves wave--bottom"></div>
+
+    <!-- JS -->
+    <script src="./js/countdown.js"></script>
+
+</body>
+
+</html>

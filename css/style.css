@@ -1,0 +1,28 @@
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 90%;
+    height: 50vh;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* RESPONSIVE */
+/* Phone Only */
+@media (max-width: 599px) {
+    main {
+        flex-direction: column;
+    }
+}
